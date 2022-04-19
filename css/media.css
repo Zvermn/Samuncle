@@ -1,0 +1,386 @@
+@media screen and (max-width: 1024px) and (min-width: 769px) {
+    .header-info p {
+        font-size: 2.25rem;
+    }
+
+    span {
+        font-size: 2.25rem;
+    }
+
+    .brand-wrap-text span:nth-child(2) {
+        font-size: 1rem;
+    }
+
+    .brand-wrap-text .tel {
+        font-size: 1.5rem;
+    }
+
+    .header-info-ul li {
+        font-size: 1rem;
+    }
+
+    .header-nav-ul li {
+        font-size: 1rem;
+    }
+
+    .header-nav-ul {
+        padding: 0 3.75rem;
+    }
+
+    .img-it img {
+        height: fit-content;
+    }
+
+    .form-block>span {
+        font-size: 1.5rem;
+        margin-left: -80px;
+    }
+
+    button {
+        font-size: 1rem;
+    }
+
+    .form-block span {
+        font-size: 1.5rem;  
+    }
+
+    h1 {
+        padding-left: 40px;
+    }
+
+    h2 {
+        font-size: 2.25rem;
+    }
+
+    .brand h2 {
+        padding-left: 40px;
+    }
+
+    .kay-aspect {
+        padding: 0 160px;
+    }
+
+    .brand.wrap-global {
+        padding: 0 60px;
+    }
+
+    .wrap-content section {
+        padding: 0 80px;
+        margin-bottom: 100px;
+    }
+
+    main .steps .wrap-interior {
+        padding-left: 20px;
+    }
+
+    main .collab {
+        padding: 0;
+    }
+
+    .wrap-content .steps {
+        padding: 0 60px;
+    }
+
+    .first-form {
+        max-width: 380px;
+    }
+
+    .about-brand {
+        padding: 0 40px;
+    }
+    
+    .about-text p:first-child strong {
+        font-size: 1.25rem;
+    }
+
+    strong {
+        font-size: 1rem;
+    }
+    
+    p {
+        font-size: 1rem;
+    }
+
+    .brand-foto-block span {
+        font-size: 1rem;
+    }
+
+    li {
+        font-size: 1rem;
+    }
+
+    h3 {
+        font-size: 1.25rem;
+    }
+
+    .provide-content .content {
+        padding: 0 35px;
+    }
+
+    .find-partners h2 {
+        padding-right: 80px;
+    }
+
+    .find-partners img {
+        height: 540px;
+        top: 0%;
+        margin-right: 85px;
+    }
+
+    .find-partners.wrap-global {
+        margin-bottom: 120px;
+    }
+
+    .requirements-content img {
+        height: 557px;
+        top: -50%;
+    }
+
+    .requirements.wrap-interior {
+        margin-bottom: 280px;
+    }
+
+    .promo span:first-child {
+        font-size: 3rem;
+    }
+
+    .wrap-interior.collab-content {
+        padding: 0 80px;
+    }
+
+    .header-pd {
+        padding: 3.75rem;
+    }
+}
+
+@media screen and (max-width: 768px) and (min-width: 479px) {
+
+    span {
+        font-size: 2rem;
+    }
+
+    strong {
+        font-size: 1rem;
+    }
+
+    ul li {
+        font-size: 1rem;
+    }
+
+    .brand-wrap-text .tel {
+        font-size: 1.25rem;
+    }
+
+    .header-nav-ul li {
+        font-size: 0.8rem;
+    }
+
+    .header-info p {
+        font-size: 2rem;
+    }
+
+    .header-info-ul li {
+        font-size: 0.8rem;
+    }
+
+    .start-business {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .img-it img {
+        position:static;
+        height: auto;
+        right: unset;
+    }
+
+    .img-it {
+        max-width: unset;
+        height: unset;
+        width: unset;
+    }
+
+    .first-form {
+        max-width: 504px;
+        margin: 0 auto;
+    }
+
+    .form-block span {
+        font-size: 1.5rem;
+    }
+   
+    .form-block>span {
+        max-width: 504px;
+        width: 100%;
+        margin: 0 auto;
+        margin-bottom: 70px;
+        display: block;
+    }
+
+    .brand-wrap.wrap-global.header-pd {
+     padding-top: 90px;
+    }
+
+    .brand-wrap-text span:nth-child(2) {
+        font-size: 1rem;
+    }
+
+    .wrap-content section {
+        transform: translateY(-160px);
+        padding: 0 50px;
+    }
+
+    .brand.wrap-global {
+        padding: 0;
+    }
+
+    h1 {
+        padding: 25px 50px;
+        font-size: 2.5rem;
+        color: white;
+        background-color: rgb(0, 0, 0);
+    } 
+
+    h2 {
+        font-size: 2.25rem;
+        text-align: center;
+    }
+
+    p {
+        font-size: 1rem;
+    }
+    
+    .brand .wrap-interior {
+        padding: 0;
+    }
+
+    .brand h2 {
+        padding: 0 50px;
+    }
+
+    .about-brand {
+        padding: 0 50px;
+    }
+
+    .brand-foto-block {
+        padding: 0 25px;
+    }
+
+    .kay-aspect {
+        max-width: fit-content;
+        width: 100%;
+        text-align: left;
+        margin: 0 auto;
+    }
+
+    .kay-aspect ul {
+        padding-left: 20px;
+    }
+
+    .brand-foto-block span {
+        font-size: 1rem;
+    }
+
+    h3 {
+        font-size: 1.25rem;
+    }
+
+    .promo span:first-child {
+        font-size: 3rem;
+    }
+
+    .wrap-content section {
+        margin-bottom: 100px;
+    }
+
+    
+
+}
+
+@media screen and (max-width: 1060px) and (min-width: 479px) {
+
+
+.find-partners-content {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .find-partners.wrap-global {
+        margin-bottom: 100px;
+        padding: 0;
+    }
+
+    .find-partners img {
+        height: 500px;
+        position: static;
+        margin-right: 50px;
+        align-self: flex-start;
+        margin-bottom: 50px;
+    }
+
+    .find-partners h2 {
+        text-align: center;
+    }
+
+    .requirements.wrap-interior {
+        margin-bottom: 100px;
+    }
+
+    .requirements.wrap-interior h2 {
+        text-align: center;
+    }
+
+    .requirements-content img {
+        height: 500px;
+        position: static;
+        margin-bottom: 50px;
+        align-self: flex-start;
+    }
+
+    .requirements-content {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media screen and (max-width: 850px) and (min-width: 479px) {
+
+
+.find-partners img {
+    align-self:flex-end;
+}
+
+}
+@media screen and (max-width: 768px) and (min-width: 360px) {
+
+    .bg-h2 {
+margin-bottom: 50px;
+    }
+
+    .wrap-interior.collab-content {
+        justify-content: center;
+    }
+
+    .wrap-interior.collab-content .collab-img:last-child {
+        margin-bottom: 0;
+    }
+
+    p {
+        margin-bottom: 20px;
+    }
+
+    .wrap-content main li {
+        line-height: 1.4rem;
+    }
+}
+
+
+@media screen and (max-width: 1024px) and (min-width: 480px) {
+
+    header {
+        background: url(/img/header-bg-1024-480.jpg) 50% 40%/  auto 1200px  no-repeat;
+    }
+
+
+}
