@@ -33,6 +33,10 @@ h2 {
     font-weight: 700;
     font-size: 2.6rem;
     margin-bottom: 75px;
+    background-color: #fff;
+    position: sticky;
+    top: 0;
+    z-index: 1;
 }
 
 h3 {
@@ -73,12 +77,16 @@ ul li {
 
 header {
     border-top: 10px solid #0048FF;
-    background: url(/img/header-bg.jpg) 50% 60%/  auto 1200px  no-repeat;
+    background: url(/img/header-bg-1920.jpg) center center/  cover  no-repeat;
     color: white;
+    /* height: 1048px; */
+    padding-top: 180px;
+    margin-bottom: 110px;
 }
 
+
 .header-pd {
-    padding: 2rem;
+    padding: 0 140px;
 }
 
 span {
@@ -159,10 +167,12 @@ button {
 
 .header-nav {
     background: rgba(0, 0, 0, 0.7);
+    position: sticky;
+    top: 0;
 }
 .header-nav-ul {
     margin-bottom: 260px;
-    padding: 0 1.75rem;
+    padding: 0 140px;
 }
 .header-nav-ul li {
     font-family: "TTNorms";
@@ -182,7 +192,7 @@ button {
     font-weight: 900;
     font-style: normal;
     font-size: 3rem;
-    margin-bottom: 30px;
+    margin-bottom: 40px;
     line-height: 3rem;
 }
 .header-info-ul li {
@@ -195,17 +205,15 @@ button {
 }
 
 .header-info-ul {
-    padding-bottom: 80px;
+    padding-bottom: 100px;
 }
 
 .bg-section {
     background-color: rgb(255, 255, 255);
-    border-radius: 100px;
-    max-width: 1557px;
-    width: 100%;
-    height: 180px;
+    border-radius: 50px 50px 0 0;
+    width: 90%;
+    height: 48px;
     margin: 0 auto;
-    margin-top: -50px;
 }
 
 /*> start-business */
@@ -476,6 +484,7 @@ input[type=checkbox]:checked+label {
     position: absolute;
     right: 50%;
     margin-right: 35px;
+    z-index: 2;
 }
 
 .find-partners.wrap-global {
@@ -517,6 +526,7 @@ input[type=checkbox]:checked+label {
     border-bottom-left-radius: 500px;
     position: absolute;
     left: 60%;
+    z-index: 2;
 }
 
 /* >section steps */
@@ -595,6 +605,8 @@ main .steps .wrap-interior {
 .bg-h2 {
     background: #000;
     color: white;
+    position: sticky;
+    top: 0;
 }
 
 .bg-h2 h2 {
@@ -603,6 +615,8 @@ main .steps .wrap-interior {
     max-width: 1020px;
     width: 100%;
     margin: 0 auto;
+    margin-bottom: 80px;
+    background: none;
 }
 
 main .collab {
@@ -628,6 +642,7 @@ main .collab {
     max-width: 530px;
     width: 100%;
     margin-right: 10px;
+    flex-basis: 50%;
 }
 
 .collab-img {
