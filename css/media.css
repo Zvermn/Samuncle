@@ -391,7 +391,7 @@
     }
 
     .wrap-content section {
-        padding: 0 1.5rem;
+        padding: 0 1.2rem;
     }
 
     .start-business {
@@ -429,7 +429,7 @@
         height: 280px;
         position: static;
         margin-bottom: 50px;
-        align-self: flex-end;
+        /* align-self: flex-end; */
     }
 
 }
@@ -603,6 +603,10 @@
 
 @media screen and (max-width: 768px) and (min-width: 100px) {
 
+    button {
+        font-size: 0.8rem;
+    }
+
     h1 {
         padding: 25px 1.5rem;
         font-size: 2.5rem;
@@ -653,11 +657,22 @@
         margin-right: 1.5rem;
     }
 
+    .requirements.wrap-interior {
+        padding: 0;
+    }
+
      .requirements-content img {
         height: 280px;
-        align-self: flex-start;
+        /* align-self: flex-start; */
         margin-left: 22px;
-        
+    }
+
+    .requirements-text {
+        padding: 0 20px;
+    }
+
+    .requirements-text ul {
+        padding-left: 20px;
     }
 
     .wrap-content .we-provide {
@@ -689,6 +704,10 @@
         margin-bottom: 60px;
     }
 
+    .requirements.wrap-interior {
+        margin-bottom: 60px;
+    }
+
     .wrap-content .steps {
         padding: 0;
     }
@@ -698,7 +717,7 @@
 
     .wrap-interior.collab-content {
         justify-content: center;
-        padding: 0 1.5rem;
+        padding: 0 1.2rem;
     }
 
     .bg-h2 h2 {
@@ -736,7 +755,7 @@
     }
 
     .provide-content .content {
-        padding: 0 10px;
+        padding: 0 0 0 10px;
     }
 
     h2 {

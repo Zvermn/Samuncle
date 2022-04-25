@@ -18,6 +18,10 @@ main {
     overflow-x: clip;
 }
 
+html {
+    font-size: 16px;
+}
+
 h1 {
     font-family: "TTNorms";
     font-weight: 700;
@@ -105,7 +109,7 @@ form {
 button {
     width: 100%;
     text-align: center;
-    padding: 15px 0;
+    padding: 15px 5px;
     border-radius: 25px;
     background-color: #C90000;
     color: white;
@@ -116,7 +120,7 @@ button {
 }
 
 .wrap-content section {
-    padding: 0 60px;
+    padding: 0 40px;
     margin-bottom: 150px;
 }
 
@@ -152,6 +156,7 @@ button {
     font-weight: 700;
     font-style: normal;
     font-size: 2rem;
+    color: white;
 }
 .brand-wrap-text span:nth-child(2) {
     font-family: "TTNorms";
@@ -317,7 +322,7 @@ input[type=checkbox]:checked+label {
 }
 
 .brand h2 {
-    padding-left: 20px;
+    padding-left: 30px;
 }
 
 .about-brand {
@@ -325,11 +330,11 @@ input[type=checkbox]:checked+label {
     flex-wrap: wrap;
     justify-content:space-between;
     margin-bottom: 45px;
-    padding: 0 20px;
+    padding: 0 1.2rem;
 }
 
 .kay-aspect {
-    padding: 0 20px;
+    padding: 0 50px;
 }
 
 .about-text {
@@ -461,7 +466,11 @@ input[type=checkbox]:checked+label {
 }
 
 .text {
-    padding-right: 40px;
+    padding: 0 24px;
+}
+
+.text ol {
+    padding-left: 20px;
 }
 
 .text ol > li::marker{
@@ -532,7 +541,7 @@ input[type=checkbox]:checked+label {
 /* >section steps */
 
 main .steps .wrap-interior {
-    padding-left: 60px;
+    padding-left: 40px;
 }
 
 .steps-list {
@@ -610,7 +619,7 @@ main .steps .wrap-interior {
 }
 
 .bg-h2 h2 {
-    padding: 10px 60px 10px 60px;
+    padding: 10px 40px 10px 40px;
     text-align: left;
     max-width: 1020px;
     width: 100%;
@@ -631,7 +640,7 @@ main .collab {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-    padding: 0 60px;
+    padding: 0 40px;
     max-width: 1020px;
     width: 100%;
     align-items: center;
