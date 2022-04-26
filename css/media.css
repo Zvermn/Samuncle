@@ -5,7 +5,7 @@
     }
 
     header {
-        background: url(/img/header-bg-1024.jpg) center center/ cover  no-repeat;
+        background: url(/css/img/header-bg-1024.jpg) center center/ cover  no-repeat;
         padding-top: 90px;
     }
 
@@ -158,7 +158,7 @@
     }
 
     .wrap-interior.collab-content {
-        padding: 0 120px;
+        padding: 0 50px;
     }
 
     .collab-text {
@@ -172,6 +172,33 @@
     .brand-foto-block {
         justify-content: space-around;
     }
+}
+
+@media screen and (max-width: 1024px) {
+    .collab-img {
+        flex: 0 1 285px;
+        margin-bottom: 90px;
+    }
+    .collab-text {
+        margin-bottom: 0;
+    }
+}
+
+@media screen and (max-width: 531px) {
+    .brand-wrap {
+    justify-content: center;
+    }
+    .brand-wrap-img {
+        padding: 0 15px;
+        margin-bottom: 15px;
+    }
+}
+
+@media screen and (max-width: 1024px) and (min-width: 820px) {
+    .wrap-interior.collab-content {
+        padding: 0 120px;
+    }
+
 }
 
 @media screen and (max-width: 920px) and (min-width: 500px) {
@@ -190,7 +217,7 @@
 @media screen and (max-width: 768px) and (min-width: 481px) {
 
     header {
-        background: url(/img/header-bg-768.jpg) center center/  cover  no-repeat;
+        background: url(/css/img/header-bg-768.jpg) center center/  cover  no-repeat;
         height: 100%;
     }    
 
@@ -286,7 +313,7 @@
     }
 
     p {
-        font-size: 1rem;
+        font-size: 1.25rem;
     }
     
     .brand .wrap-interior {
@@ -295,6 +322,7 @@
 
     .brand h2 {
         padding: 0 50px;
+        text-align: left;
     }
 
     .about-brand {
@@ -367,12 +395,20 @@
         align-self: flex-end;
     }
 
+    .requirements-text ul {
+        padding-left: 40px;
+    }
+
+    /* .collab-text {
+        flex-basis: 100%;
+    } */
+
 }
 
 @media screen and (max-width: 480px) and (min-width: 361px) {
 
     header {
-        background: url(/img/header-bg-480.jpg) center center/  cover  no-repeat;
+        background: url(/css/img/header-bg-480.jpg) center center/  cover  no-repeat;
         height: 100%;
         padding-top: 90px;
         margin-bottom: 0;
@@ -388,6 +424,10 @@
 
     .bg-section {
         height: 20px;
+    }
+
+    .brand h2 {
+        padding: 0 1.2rem;
     }
 
     .wrap-content section {
@@ -432,12 +472,20 @@
         /* align-self: flex-end; */
     }
 
+    .requirements-text ul {
+        padding: 0 1.2rem;
+    }
+
+    p {
+        font-size: 1rem;
+    }
+
 }
 
 @media screen and (max-width: 360px) {
 
     header {
-        background: url(/img/header-bg-320.jpg) center center/  cover  no-repeat;
+        background: url(/css/img/header-bg-320.jpg) center center/  cover  no-repeat;
         height: 100%;
         padding-top: 30px;
         margin-bottom: 30px;
@@ -493,6 +541,10 @@
 
     .wrap-content section {
         padding: 0 15px;
+    }
+
+    p {
+        font-size: 1rem;
     }
 
     h1 {
@@ -560,6 +612,14 @@
         padding: 0 0px 5px 46px;
     }
 
+    .requirements-text ul {
+        padding: 0 15px;
+    }
+
+    .wrap-interior.collab-content {
+        padding: 0 15px;
+    }
+
     
 }
 
@@ -608,7 +668,7 @@
     }
 
     h1 {
-        padding: 25px 1.5rem;
+        padding: 25px 50px;
         font-size: 2.5rem;
         color: white;
         background-color: rgb(0, 0, 0);
@@ -622,10 +682,10 @@
         margin-bottom: 50px;
     }
 
-    .brand h2 {
+    /* .brand h2 {
         padding-left: 0;
         text-align: center;
-    }
+    } */
 
     .about-brand {
         justify-content: center;
@@ -671,9 +731,9 @@
         padding: 0 20px;
     }
 
-    .requirements-text ul {
-        padding-left: 20px;
-    }
+    /* .requirements-text ul {
+        padding-left: 40px;
+    } */
 
     .wrap-content .we-provide {
         margin-bottom: 0px;
@@ -685,7 +745,7 @@
 
     .collab-text {
         margin-right: unset;
-        flex-basis: 100%;
+        /* flex-basis: 100%; */
     }
 
     .promo span:first-child {
@@ -715,13 +775,13 @@
     .wrap-content .collab {
         padding: 0;    }
 
-    .wrap-interior.collab-content {
+    /* .wrap-interior.collab-content {
         justify-content: center;
-        padding: 0 1.2rem;
-    }
+        /* padding: 0 1.2rem; */
+    /* } */ 
 
     .bg-h2 h2 {
-        padding: 10px 1.5rem;
+        padding: 10px 50px;
         text-align: center;
     }
 

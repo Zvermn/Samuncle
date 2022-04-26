@@ -15,7 +15,6 @@
 <body>
     <div class="wrap-content">
         <header>
-            <!-- <div class="blue-line"></div> -->
             <div class="brand-wrap wrap-global header-pd">
                 <picture>
                     <source srcset="/img/logo-in-block-1024.svg" media="(max-width: 1024px) and (min-width: 769px)">
@@ -65,7 +64,7 @@
                     </span>
                     <form action="#" class="first-form">
                         <input type="text" placeholder="Ваше имя">
-                        <input type="text" placeholder="Номер телефона">
+                        <input type="text" placeholder="Номер телефона" class="phone-field">
                         <input type="checkbox" id="accept">
                         <label for="accept">Я соглашаюсь с правилами обработки<br>персональных данных</label>
                         <button>Отправить заявку на быстрый старт</button>
@@ -80,7 +79,7 @@
                     <div class="about-brand">
                         <img src="/img/logo-sam-uncle.svg" alt="Логотип Дяди Сэма" width="124" height="182">
                         <div class="about-text">
-                            <p><strong>«Суши от дяди Сэма»</strong> - это развивающийся бренд доставки готовой еды в
+                            <p><strong>«Суши от дяди Сэма» </strong> - это развивающийся бренд доставки готовой еды в
                                 формате
                                 закрытой кухни.
                                 Японские роллы составляют основную часть меню которое предлагается брендом.
@@ -121,7 +120,6 @@
                             <li>наличие собственной системы автоматизации ведения бизнеса</li>
                             <li>конкуренция по цене</li>
                         </ul>
-
                     </div>
                 </div>
             </section>
@@ -196,7 +194,7 @@
                         <ol>
                             <li>
                                 <strong>Опытные повара которые приняли решение начать свой бизнес</strong>
-                                <button>Хочу открыть Dark Kitchen</button>
+                                <button class="open-popup">Хочу открыть Dark Kitchen</button>
                             </li>
                             <li>
                                 <strong>Действующие компании доставки еды, которые:</strong>
@@ -208,7 +206,7 @@
                                         сегмент на
                                         своем локальном рынке</li>
                                 </ul>
-                                <button>Хочу увеличить выручку!</button>
+                                <button class="open-popup">Хочу увеличить выручку!</button>
                             </li>
                         </ol>
                     </div>
@@ -235,33 +233,18 @@
                     <h2>Порядок действий</h2>
                     <ul class="steps-list">
                         <li>
-                            <!-- <div class="table-wrap">
-                                <div class="table-cell"> -->
-
                             <h3><span class="marker"></span>Заявка на сотрудничество через форму сайта</h3>
                             <p>Мы свяжемся с вами и обсудим возможность старта бизнеса с учетом вашей текущей
                                 ситуации.
                                 Познакомимся и ответим на ваши вопросы.</p>
-                            <!-- </div>
-                            </div> -->
                         </li>
                         <li>
-                            <!-- <div class="teble-wrap">
-                                <div class="table-cell"> -->
-
-
                             <h3><span class="marker"></span>Подписание договора</h3>
                             <p>Мы передадим вам пакет необходимых документов: технологические
                                 карты, списки рекомендованных поставщиков, инструкции по взаимодействию, наши
                                 реквизиты.</p>
-                            <!-- </div>
-                            </div> -->
                         </li>
                         <li>
-                            <!-- <div class="teble-wrap">
-                                <div class="table-cell"> -->
-
-
                             <h3><span class="marker"></span>Подключение к системе автоматизации</h3>
                             <p>Мы создадим аккаунт в системе автоматизации для вашей компании. Зарегистрируем
                                 ваших
@@ -271,34 +254,20 @@
                                 работы в
                                 вашем
                                 городе.</p>
-                            <!-- </div>
-                            </div> -->
                         </li>
                         <li>
-                            <!-- <div class="teble-wrap">
-                                <div class="table-cell"> -->
-
-
                             <h3><span class="marker"></span>Обучение и тестирование работы</h3>
                             <p>Проведем простое онлайн обучение по работе с системой: прием заказа, завершение
                                 сделки,
                                 просмотр
                                 информации по продажам.</p>
-                            <!-- </div>
-                            </div> -->
                         </li>
                         <li>
-                            <!-- <div class="teble-wrap">
-                                <div class="table-cell"> -->
-
-
                             <h3><span class="marker"></span>Старт продаж</h3>
                             <p>Осуществим запуск рекламных кампании в соответствии с выбранным маркетинговым
                                 планом.
                                 После
                                 этого шага - начнут поступать заявки.</p>
-                            <!-- </div>
-                            </div> -->
                         </li>
                     </ul>
                 </div>
@@ -329,7 +298,10 @@
                         <p>Сразу после этого вам отправляется оповещение в Телеграм.</p>
                     </div>
                     <div class="collab-img">
-                        <img src="/img/mix/view-telegram.png" alt="Чат-телеграмм">
+                        <picture>
+                            <source media="(max-width: 768px)" srcset="/img/telegram-768.png">
+                            <img src="/img/telegram-1902-1024.png" alt="Чат-телеграмм">
+                        </picture>
                     </div>
                     <div class="collab-text">
                         <h3>Действия с вашей стороны:</h3>
@@ -342,7 +314,10 @@
                         <p>Как видите, все очень просто.<br>Приглашаем вас начать совместное дело!</p>
                     </div>
                     <div class="collab-img">
-                        <img src="/img/mix/view-check-order.png" alt="Чек">
+                        <picture>
+                            <source media="(max-width: 1024px)" srcset="/img/view-check-order-1024.png">
+                            <img src="/img/view-check-order-1920-1360.png" alt="Чат-телеграмм">
+                        </picture>
                     </div>
                 </div>
             </section>
@@ -350,7 +325,7 @@
                 <h2>Отлично! Я готов начать</h2>
                 <form action="#" class="first-form">
                     <input type="text" placeholder="Ваше имя">
-                    <input type="text" placeholder="Номер телефона">
+                    <input type="text" placeholder="Номер телефона" class="phone-field">
                     <input type="checkbox" id="accept2">
                     <label for="accept2">Я соглашаюсь с правилами обработки<br>персональных данных</label>
                     <button>Отправить заявку на быстрый старт</button>
@@ -359,8 +334,25 @@
         </main>
     </div>
     <footer>
-
     </footer>
+    <div class="pop-up-bg">
+        <div class="pop-up">
+            <div class="wrap-form">
+                <form action="#" method="post" class="form-order">
+                    <span class="close-form"></span>
+                    <h2>Отправить заявку</h2>
+                    <div class="wrap-input">
+                        <input type="text" name="name" placeholder="Ваше имя">
+                        <input type="text" name="tel" class="tel-input" placeholder="Телефон">
+                        <input type="checkbox" name="Agreement" value="0" id="checkbox-popup" class="checkbox">
+                        <label for="checkbox-popup"> <span>Согласен на обработку персональных данных</span></label>
+                        <button type="button" class="send-order">Отправить</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <script src="/js/app.js"></script>
 </body>
 
 </html>

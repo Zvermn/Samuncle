@@ -30,6 +30,7 @@ h1 {
     padding-left: 110px;
     max-width: 1150px;
     width: 100%;
+    line-height: 1.2;
 }
 
 h2 {
@@ -41,6 +42,7 @@ h2 {
     position: sticky;
     top: 0;
     z-index: 1;
+    line-height: 1.2;
 }
 
 h3 {
@@ -49,6 +51,7 @@ h3 {
     font-style: normal;
     font-size: 1.5rem;
     margin-bottom: 10px;
+    line-height: 1.2;
 }
 
 p {
@@ -58,6 +61,7 @@ p {
     font-size: 1.25rem;
     line-height: 2rem;
     margin-bottom: 40px;
+    line-height: 1.4;
 }
 
 strong {
@@ -65,6 +69,7 @@ strong {
     font-style: normal;
     font-weight: 700;
     font-size: 1.25rem;
+    line-height: 1.4;
 }
 
 li {
@@ -77,13 +82,13 @@ li {
 ul li {
     list-style-type: disc;
     padding: 5px 0;
+    line-height: 1.2;
 }
 
 header {
     border-top: 10px solid #0048FF;
-    background: url(/img/header-bg-1920.jpg) center center/  cover  no-repeat;
+    background: url(/css/img/header-bg-1920.jpg) center center/  cover  no-repeat;
     color: white;
-    /* height: 1048px; */
     padding-top: 180px;
     margin-bottom: 110px;
 }
@@ -117,6 +122,7 @@ button {
     font-weight: 700;
     text-transform: uppercase;
     letter-spacing: 0.15rem;
+    font-family: "Proxima";
 }
 
 .wrap-content section {
@@ -198,7 +204,7 @@ button {
     font-style: normal;
     font-size: 3rem;
     margin-bottom: 40px;
-    line-height: 3rem;
+    line-height: 1.4;
 }
 .header-info-ul li {
     display: inline-block;
@@ -206,7 +212,7 @@ button {
     font-weight: 300;
     font-style: normal;
     font-size: 1.5rem;
-    padding: 10px 5px 10px 0;
+    padding: 10px 20px 5px 0;
 }
 
 .header-info-ul {
@@ -244,7 +250,8 @@ button {
 }
 .form-block span {
     font-weight: 700;
-    font-size: 2rem;  
+    font-size: 2rem;
+    line-height: 1.2;  
 }
 
 .form-block span span:nth-child(2){
@@ -293,15 +300,16 @@ input[type=checkbox] {
 }
 
 input[type=checkbox] + label {
-    background-image: url(/icons/check-box.svg);
+    background-image: url(/css/img/check-box.svg);
     background-repeat: no-repeat;
     background-size: 20px 20px;
     display: block;
     padding: 0 40px;
+    line-height: 1.2;
 }
 
 input[type=checkbox]:checked+label {
-    background-image: url(/icons/Checked.svg);
+    background-image: url(/css/img/Checked.svg);
     background-repeat: no-repeat;
 }
 
@@ -359,6 +367,8 @@ input[type=checkbox]:checked+label {
 
 .brand-foto-block img {
     margin-bottom: 20px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+
 }
 
 .foto-1, .foto-2, .foto-3 {
@@ -384,19 +394,19 @@ input[type=checkbox]:checked+label {
 }
 
 .marketing .icon {
-    background: url(/icons/migafon-icon.svg) no-repeat;
+    background: url(/css/img/migafon-icon.svg) no-repeat;
 }
 
 .experience .icon {
-    background: url(/icons/case-icon.svg) no-repeat;
+    background: url(/css/img/case-icon.svg) no-repeat;
 }
 
 .automatization .icon {
-    background: url(/icons/cpu-icon.svg) no-repeat;
+    background: url(/css/img/cpu-icon.svg) no-repeat;
 }
 
 .what .icon {
-    background: url(/icons/idea-icon.svg) no-repeat;
+    background: url(/css/img/idea-icon.svg) no-repeat;
 }
 
 .what, .automatization, .experience, .marketing {
@@ -425,7 +435,7 @@ input[type=checkbox]:checked+label {
     max-width: 464px;
     width: 100%;
     height: 13px;
-    background: url(/icons/revenue.svg) no-repeat;
+    background: url(/css/img/revenue.svg) no-repeat;
     background-position: -8px -5px;
     margin-bottom: 50px;
 }
@@ -563,7 +573,7 @@ main .steps .wrap-interior {
     display: inline-block;
     width: 30px;
     height: 30px;
-    background: url(/icons/h3-marker.svg) no-repeat;
+    background: url(/css/img/h3-marker.svg) no-repeat;
     position: absolute;
     left: -60px;
     top: -3px;
@@ -578,7 +588,7 @@ main .steps .wrap-interior {
 }
 
 .steps-list li:last-child .marker {
-    background: url(/icons/mark-red.svg) no-repeat;
+    background: url(/css/img/mark-red.svg) no-repeat;
 }
 
 .count-order img {
@@ -639,30 +649,31 @@ main .collab {
 .wrap-interior.collab-content {
     display: flex;
     flex-wrap: wrap;
-    align-items: center;
     padding: 0 40px;
     max-width: 1020px;
     width: 100%;
-    align-items: center;
-    justify-content: space-between;
+    justify-content: center;
 }
 
 .collab-text {
-    max-width: 530px;
+    /* max-width: 530px;
     width: 100%;
     margin-right: 10px;
-    flex-basis: 50%;
+    flex-basis: 50%; */
+    flex: 1 1 330px;
+    margin-bottom: 90px;
 }
 
 .collab-img {
-    max-height: fit-content;
+    /* max-height: fit-content;
     height: 100%;
     max-width: 295px;
-    width: 100%;
+    width: 100%; */
+    flex: 0 1 309px;
 }
 
 .collab-img {
-    margin-bottom: 90px;
+    
 }
 
 /* >section form-second */
@@ -673,6 +684,150 @@ main .collab {
 
 .form-second.wrap-interior form{
     margin: 0 auto;
+}
+
+/* >popUp                                                        */
+
+.wrap-form {
+    padding: 50px 20px 30px 20px;
+}
+
+.form-order input[type=text] {
+    display: block;
+    border: solid 2px #D2C5BA;
+    padding: 13px 20px 10px 20px;
+    margin-bottom: 30px;
+    width: 100%;
+    font-family: "Proxima";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.1rem;
+
+}
+
+.form-order input[type=text]:focus {
+    background-color: transparent;
+    border: 2px solid #0048FF;
+}
+
+.form-order input[type=text]::placeholder {
+    font-family: "Proxima";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.1rem;
+}
+
+.checkbox {
+    display: none;
+}
+
+label span {
+    display: inline-block;
+    padding-top: 2px;
+}
+
+.checkbox+label {
+    font-family: Calibri;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    margin-bottom: 30px;
+    width: 100%;
+    height: 40px;
+}
+
+.form-order button {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.form-order h2 {
+    font-family: "Calibri";
+    font-weight: 700;
+    font-size: 2.6rem;
+    margin-bottom: 60px;
+    position: static;
+    line-height: 1.4;
+}
+
+.form-order span {
+    font-family: "Proxima";
+    font-weight: 400;
+    font-style: normal;
+    font-size: 0.8rem;
+    text-align: left;
+}
+
+.pop-up-bg {
+    position: fixed;
+    background-color: rgba(0, 0, 0, 0.4);
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    pointer-events: none;
+    transition: 0.5s all;
+}
+
+.pop-up-bg.active {
+    opacity: 1;
+    pointer-events: all;
+    transition: 0.5s all;
+}
+
+.pop-up {
+    max-width: 640px;
+    width: 100%;
+    position: relative;
+    margin: 0 auto;
+    transform: translateY(50%) scale(0);
+    border: 2px solid #0048FF;
+    background-color: white;
+    border-radius: 8px;
+    transition: 0.5s all;
+}
+
+.pop-up.active {
+    transform: translateY(50%) scale(1);
+    transition: 0.5s all;
+}
+
+.wrap-form {
+    max-width: 420px;
+    width: 100%;
+    height: 100%;
+    padding: 40px 50px 40px 50px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.form-send-order .wrap-form {
+    padding: 0px 50px 40px 50px;
+}
+
+.wrap-input {
+    max-width: 325px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.close-form {
+    width: 23px;
+    height: 23px;
+    background-image: url(/css/img/close-form.svg);
+    position: absolute;
+    right: 20px;
+    top: 20px;
+}
+
+.close-form:hover {
+    cursor: pointer;
+}
+
+.pop-up-bg, .pop-up {
+    z-index: 10;
 }
 
 @import url(/css/media.css);
