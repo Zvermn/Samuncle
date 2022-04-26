@@ -3,7 +3,7 @@ let inputTel = document.querySelectorAll(".phone-field");
 inputTel.forEach(el => {
     el.addEventListener("paste", (e) => { e.preventDefault() });
 });
-
+// >Маска для вставки в поле ввода номера телефона                                                                                 
 document.addEventListener("DOMContentLoaded", function () {
     var phoneInputs = document.querySelectorAll('.phone-field');
 
@@ -11,7 +11,7 @@ document.addEventListener("DOMContentLoaded", function () {
         // Return stripped input value — just numbers
         return input.value.replace(/\D/g, '');
     }
-    // >Маска для вставки в поле вводжа номера телефона                                                                                 
+
     var onPhonePaste = function (e) {
         var input = e.target,
             inputNumbersValue = getInputNumbersValue(input);

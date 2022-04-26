@@ -694,7 +694,7 @@ main .collab {
 
 .form-order input[type=text] {
     display: block;
-    border: solid 2px #D2C5BA;
+    border: solid 1px #BDBDBD;
     padding: 13px 20px 10px 20px;
     margin-bottom: 30px;
     width: 100%;
@@ -783,7 +783,7 @@ label span {
     position: relative;
     margin: 0 auto;
     transform: translateY(50%) scale(0);
-    border: 2px solid #0048FF;
+    border: 4px solid #0048FF;
     background-color: white;
     border-radius: 8px;
     transition: 0.5s all;
